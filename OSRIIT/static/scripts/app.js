@@ -178,40 +178,31 @@ function visualize(stream) {
   }
 }
 
-var wantedWords1 = [
-  'Next',
+var wantedWords = [
   'Click',
+  'Next',
   'Stop',
-  'Begin',
-  'End',
-  'Close',
-  'Hello',
-  'Jenny',
   'Yes',
   'No',
-];
-
-var wantedWords = [
-  'Next',
-  'Click',
-];
-
-var fillerWords1 = [
-  'Dog',
-  'Cat',
-  'Bird',
-  'Tree',
-  'Marvin',
-  'Sheila',
-  'House',
-  'Bed',
-  'Wow',
-  'Happy',
+  'On',
+  'Off',
+  'Close',
+  'Flash',
+  'Go',
+  'Up',
 ];
 
 var fillerWords = [
-  'Dog',
-  'Cat',
+  'Show',
+  'Back',
+  'Jenny',
+  'Right',
+  'Left',
+  'Lock',
+  'Open',
+  'Listen',
+  'Front',
+  'Down',
 ];
 
 function getRecordedWords() {

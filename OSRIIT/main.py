@@ -93,7 +93,7 @@ app.secret_key = 'SESSION_SECRET_KEY'
 def upload_file_to_s3(data, filename, bucket_name):
 
     #data = "hello worl"
-    filename = "TEST/"+filename
+    filename = "SPEECH1/"+filename
     print bucket_name,filename 
     s3.put_object(
             ACL='private',
